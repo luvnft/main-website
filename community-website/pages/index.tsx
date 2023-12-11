@@ -85,7 +85,7 @@ const Home: NextPage = () => {
             <a className={styles.card}>
               <h2>Subscribe &rarr;</h2>
               <p>
-                Subscribe to a NFTV PPV network to join the reVULution and claim 100 $LUV.
+               Subscribe to an NFTV PPV network to join the reVULution and claim 100 $LUV.
               </p>
             </a>
           </Link>
