@@ -44,7 +44,6 @@ const Home: NextPage = () => {
         <title>LUV NFT - WEB5</title>
         <meta name="description" content="YFOSP Community Website" />
         <link rel="icon" href="/earth-asia-solid.svg" />
-        <img src="/luvnft.png" alt="LUV NFT" />
       </Head>
 
       <canvas
