@@ -13,9 +13,9 @@ const Home: NextPage = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "Get started with Your First Open Source Project!",
-        "Submit your first open source contribution now!",
-        "Join our awesome community of 180+ members!",
+        "⚡ We're investing 1 trillion One $LUV into Web5! ",
+        "💖 $LUV is a UBI equivalent to one hour of time in your state!",
+        "⚡ We offer free spiritual healing health care!",
       ],
       typeSpeed: 75,
       backSpeed: 75,
@@ -41,7 +41,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Your First Open Source Project</title>
+        <title>LUV NFT - WEB5</title>
         <meta name="description" content="YFOSP Community Website" />
         <link rel="icon" href="/earth-asia-solid.svg" />
         <img src="/luvnft.png" alt="LUV NFT" />
