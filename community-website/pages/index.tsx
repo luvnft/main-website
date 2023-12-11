@@ -77,7 +77,7 @@ const Home: NextPage = () => {
           <Link href="https://y.luvnft.com">
             <a className={styles.card}>
               <h2>Y &rarr;</h2>
-              <p>Find more information about Web5 and how the new purpose economy works.</p>
+              <p>Find more information about Web5 and how the new purpose economy works for you.</p>
             </a>
           </Link>
 
@@ -85,7 +85,7 @@ const Home: NextPage = () => {
             <a className={styles.card}>
               <h2>Subscribe &rarr;</h2>
               <p>
-               Subscribe to an NFTV network to join the reVULution to accept & claim $LUV.
+               Subscribe to an NFTV network to accept, claim & barter $LUV to unite the world .
               </p>
             </a>
           </Link>
@@ -103,7 +103,7 @@ const Home: NextPage = () => {
             <a className={styles.card}>
               <h2>.LUV Name &rarr;</h2>
               <p>
-                Create your free (your name).LUV Web5 account name on Polygon testnet.
+                Create your free (your name).LUV Web5 account name on Polygon blockchain testnet.
               </p>
             </a>
           </Link>
