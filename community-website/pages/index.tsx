@@ -44,6 +44,7 @@ const Home: NextPage = () => {
         <title>Your First Open Source Project</title>
         <meta name="description" content="YFOSP Community Website" />
         <link rel="icon" href="/earth-asia-solid.svg" />
+        <img src="/luvnft.png" alt="LUV NFT" />
       </Head>
 
       <canvas
@@ -62,7 +63,7 @@ const Home: NextPage = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Your First Open Source Project!
+            Web5
           </a>
         </h1>
 
@@ -74,38 +75,36 @@ const Home: NextPage = () => {
         </p>
 
         <div className={styles.grid}>
-          <Link href="./community-members">
+          <Link href="https://y.luvnft.com">
             <a className={styles.card}>
-              <h2>Our Community &rarr;</h2>
-              <p>Find information about our community members here 👬</p>
+              <h2>Y &rarr;</h2>
+              <p>Find more information about our Web5 and the new purpose economy.</p>
             </a>
           </Link>
 
-          <Link href="./contributors">
+          <Link href="https://nftv.luvnft.com">
             <a className={styles.card}>
-              <h2>Our Contributors &rarr;</h2>
+              <h2>Subscribe &rarr;</h2>
               <p>
-                Learn about those who created this website using Next.js &
-                TypeScript 💻
+                Subscribe to a NFTV network to join the reVULution and claim 100 $LUV.
               </p>
             </a>
           </Link>
 
-          <Link href="./community-guidelines">
+          <Link href="https://zealy.io/c/luvnft/questboard">
             <a className={styles.card}>
-              <h2>Our Guidelines &rarr;</h2>
+              <h2>Quest &rarr;</h2>
               <p>
-                The Code of Conduct that everyone has to follow in the
-                organization 👨‍💻
+                Start your quest to find your purpose and earn $LUV.
               </p>
             </a>
           </Link>
 
-          <Link href="./educational-resources">
+          <Link href="https://name.luvnft.com">
             <a className={styles.card}>
-              <h2>Education Resources &rarr;</h2>
+              <h2>.LUV Name &rarr;</h2>
               <p>
-                Various educational resources for your learning journey 📖
+                Create your free .LUV Web5 bank account name on testnet.
               </p>
             </a>
           </Link>
@@ -119,8 +118,8 @@ const Home: NextPage = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h2>Find us on GitHub &rarr;</h2>
-              <p>Join our wonderful & growing community of 180+ people 💖</p>
+              <h2>Blog(chain) &rarr;</h2>
+              <p>Tell and sell your story on Near Blog(chain).</p>
             </a>
           </Link>
         </div>
@@ -128,11 +127,11 @@ const Home: NextPage = () => {
 
       <footer className={`${styles.footer} text-black dark:text-white`}>
         <a
-          href="https://hacktoberfest.com/"
+          href="https://tiktok.com/hahzcandy"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Created by the community for Hacktoberfest with ❤️
+          Made with ❤️ by 🤴🏾 The Wizard Hahz & Dr.Candy🫅🏽
         </a>
       </footer>
     </div>
