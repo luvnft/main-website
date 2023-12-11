@@ -131,7 +131,7 @@ const Home: NextPage = () => {
           rel="noopener noreferrer"
         >
           Made with ❤️ by 🤴🏾 The Wizard Hahz & Dr.Candy🫅🏽<br></br>
-          "IN LUV WE TRUST"
+          &quot;IN LUV WE TRUST&quot;
         </a>
       </footer>
     </div>
