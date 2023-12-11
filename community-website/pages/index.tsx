@@ -117,8 +117,8 @@ const Home: NextPage = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h2>Blog(chain) &rarr;</h2>
-              <p>Tell and sell your story as a Blog NFT as a side hustle.</p>
+              <h2>Earn 100% Blogging &rarr;</h2>
+              <p>Tell and sell your positive story as a Blog NFT, as a blogchain side hustle.</p>
             </a>
           </Link>
         </div>
