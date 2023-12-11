@@ -56,13 +56,13 @@ const Home: NextPage = () => {
         <NavBar></NavBar>
 
         <h1 className={styles.title}>
-          Welcome to{" "}
+          LUV{" "}
           <a
             href="https://github.com/Your-First-Open-Source-Project/main-website"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Web5
+            NFT
           </a>
         </h1>
 
