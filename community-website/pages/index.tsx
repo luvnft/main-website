@@ -130,7 +130,7 @@ const Home: NextPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Made with ❤️ by 🤴🏾 The Wizard Hahz & Dr.Candy🫅🏽<br></br>
+          Made with ❤️ by The Wizard Hahz &amp; Dr.Candy <br></br>
           &quot;IN LUV WE TRUST&quot;
         </a>
       </footer>
