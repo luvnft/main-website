@@ -106,8 +106,8 @@ const Home: NextPage = () => {
             <a className={styles.card}>
               <h2>HEALXYZ &rarr;</h2>
               <p>
-              Subscribe to the first spiritual metaverse for memes, higher learning, and finding your
-              soulmate. Follow @HealXYZ ✨😂
+              Subscribe to the first spiritual metaverse for healing, memes, higher learning, and
+              finding your soulmate. Follow @HealXYZ ✨😂
               </p>
             </a>
           </Link>
