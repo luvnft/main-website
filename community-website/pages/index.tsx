@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       strings: [
         "⚡ We're investing 1 trillion One $LUV into Web5! ",
         "💖 $LUV is a UBI equivalent to one hour of time in your state!",
-        "⚡ We offer free spiritual healing health care!",
+        "⚡ Accept our Bitcoin $RNT for real estate, products and services.",
       ],
       typeSpeed: 75,
       backSpeed: 75,
@@ -58,7 +58,7 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>
           LUV{" "}
           <a
-            href="https://github.com/Your-First-Open-Source-Project/main-website"
+            href="https://luvnft.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -77,39 +77,43 @@ const Home: NextPage = () => {
           <Link href="https://y.luvnft.com">
             <a className={styles.card}>
               <h2>Y &rarr;</h2>
-              <p>Find more information about Web5 and how the new purpose economy works for you.</p>
+              <p>Why choose LUV NFT? Explore Web5 technology and spirituality news. Discover 
+                how the purpose economy can benefit you and your business.</p>
+            </a>
+          </Link>
+
+          <Link href="https://rnt.luvnft.com">
+            <a className={styles.card}>
+              <h2>$RNT &rarr;</h2>
+              <p>
+              Create affordable housing by accepting Bitcoin $RNT for rentals. Promote 
+              RNTals on <a href="https://t.me/rntsat">Telegram</a> for free, without any middleman fees.
+              </p>
             </a>
           </Link>
 
           <Link href="https://nftv.luvnft.com">
             <a className={styles.card}>
-              <h2>Subscribe &rarr;</h2>
+              <h2>NFTV &rarr;</h2>
               <p>
-               Subscribe to an NFTV network to accept, claim & barter $LUV to unite the world.
+              Subscribe to a PPV (Pay per View) network to learn about Web5 or to own and promote 
+              your biz without algorithms or middlemen fees.
               </p>
             </a>
           </Link>
 
-          <Link href="https://zealy.io/c/luvnft/questboard">
+          <Link href="https://healxyz.com">
             <a className={styles.card}>
-              <h2>Quest &rarr;</h2>
+              <h2>HEALXYZ &rarr;</h2>
               <p>
-               Start a Tribe called Quest to earn $LUV by helping others and your community.
-              </p>
-            </a>
-          </Link>
-
-          <Link href="https://name.luvnft.com">
-            <a className={styles.card}>
-              <h2>.LUV Name &rarr;</h2>
-              <p>
-                Create your free (your name).LUV Web5 account name on Polygon blockchain testnet.
+              Subscribe to the first spiritual metaverse for memes, higher learning, and finding your
+              soulmate. Follow @HealXYZ ✨😂
               </p>
             </a>
           </Link>
 
           <Link
-            href="https://github.com/Your-First-Open-Source-Project"
+            href="https://arvrtise.com"
             passHref
           >
             <a
@@ -117,8 +121,9 @@ const Home: NextPage = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h2>Earn 100% Blogging &rarr;</h2>
-              <p>Tell and sell your positive story as a Blog NFT, as a blogchain side hustle.</p>
+              <h2>ARVRTISE &rarr;</h2>
+              <p>Advertise your biz using advanced tech for an affordable monthly subscription cost. 
+                Transform your followers or customers into your A-Team.</p>
             </a>
           </Link>
         </div>
