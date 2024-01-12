@@ -56,7 +56,7 @@ const Home: NextPage = () => {
         <NavBar></NavBar>
 
         <h1 className={styles.title}>
-        <span>LUV</span> <span>NFT</span>{" "}
+        <span>LUV NFT</span>{" "}
         <a
         href="https://luvnft.com"
         target="_blank"
