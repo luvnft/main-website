@@ -91,7 +91,7 @@ const Home: NextPage = () => {
               <p>
               We solved the affordable housing crisis with a BRC-20 token called $RNT that allows hosts to set affordable rental prices and 
               landlords to accept Bitcoin for their rental properties. Promote a RNTal for free <a href="https://t.me/rntsat">Telegram</a>.
-              Subscribe to <a href="https://luvgames.luvnft.com">Discord</a> as a LNElord to learn how to accept $RNT.
+              Subscribe to <a href="https://luvgames.luvnft.com">Discord</a> as a LNElord to learn how to accept $RNT and get $RNT relief.
               </p>
             </a>
           </Link>
