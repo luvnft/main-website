@@ -62,7 +62,7 @@ const Home: NextPage = () => {
         target="_blank"
         rel="noopener noreferrer"
         >
-        IN LUV WE TRUST
+        "&apos;IN LUV WE TRUST&apos;"
         </a>
         </h1>
 
@@ -146,7 +146,7 @@ const Home: NextPage = () => {
           rel="noopener noreferrer"
         >
           Made with ❤️ by The Wizard Hahz &amp; Dr.Candy <br></br>
-          &quot;IN LUV WE TRUST&quot;
+          "&apos;IN LUV WE TRUST&apos;"
         </a>
       </footer>
     </div>
