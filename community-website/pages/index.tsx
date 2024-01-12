@@ -59,12 +59,12 @@ const Home: NextPage = () => {
           LUV
           NFT{" "}
           <a
-            href="https://luvnft.com"
-            target="_blank"
-            rel="noopener noreferrer"
+          href="https://luvnft.com"
+          target="_blank"
+          rel="noopener noreferrer"
           >
-            IN LUV WE TRUST
-          </a>
+          IN LUV WE TRUST
+        </a>
         </h1>
 
         <p className={styles.description}>
