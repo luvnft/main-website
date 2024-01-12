@@ -13,8 +13,8 @@ const Home: NextPage = () => {
   // Escape single quotes in the options object
   const options = {
     strings: [
-      "⚡ We're investing 1 trillion One $LUV into Web5! ",
-      "💖 $LUV is a UBI equivalent to one hour of time in your state!",
+      "⚡ We're investing 1 trillion One $LUV into Web5! &quot;",
+      "💖 $LUV is a UBI equivalent to one hour of time in your state!&quot;",
       "⚡ Accept our Bitcoin $RNT for real estate, products and services.",
     ],
     typeSpeed: 75,
@@ -30,13 +30,14 @@ const Home: NextPage = () => {
   }, []);
 
   useEffect(() => {
+    // Add options as a dependency to the useEffect hook
     typed.current = new Typed("#typing-element", options);
 
     return () => {
       // Destroy Typed instance during cleanup to prevent memory leaks
       typed.current?.destroy();
     };
-  }, []);
+  }, [options]);
 
   return (
     <div className={styles.container}>
@@ -161,7 +162,7 @@ const Home: NextPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Made with ❤️ by The Wizard Hahz &amp; Dr.Candy &lt;br&gt;&lt;br&gt;
+          Made with ❤️ by The Wizard Hahz &amp;amp; Dr.Candy &amp;lt;br&amp;gt;&amp;lt;br&amp;gt;
           IN LUV WE TRUST
         </a>
       </footer>
