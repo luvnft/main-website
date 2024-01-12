@@ -129,7 +129,7 @@ const Home: NextPage = () => {
             >
               <h2>LNELORD. &rarr;</h2>
               <p>
-              We're teaching the world how to learn to invest in commercial real estate with our free game. The game
+              We are teaching the world how to learn to invest in commercial real estate with our free game. The game
               funds a player account with $440,000 in play money, allowing users to explore investment properties at
               their own pace, starting in Atlanta (Dr. Martin Luther King home). Join our Discord as a LNElord and 
               join the LNElord channel to learn how to level up. Use our LNElord AR Filter on TikTok.
