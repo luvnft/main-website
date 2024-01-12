@@ -41,8 +41,8 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>LUV NFT - WEB5</title>
-        <meta name="description" content="YFOSP Community Website" />
+        <title>LUV NFT IS WEB5</title>
+        <meta name="description" content="Learn how to own virtual real estate in the for purpose economy." />
         <link rel="icon" href="/earth-asia-solid.svg" />
       </Head>
 
@@ -56,14 +56,13 @@ const Home: NextPage = () => {
         <NavBar></NavBar>
 
         <h1 className={styles.title}>
-          LUV
-          NFT{" "}
-          <a
-          href="https://luvnft.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          >
-          IN LUV WE TRUST
+        <span>LUV</span> <span>NFT</span>{" "}
+        <a
+        href="https://luvnft.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        >
+        IN LUV WE TRUST
         </a>
         </h1>
 
