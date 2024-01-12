@@ -56,7 +56,7 @@ const Home: NextPage = () => {
         <NavBar></NavBar>
 
         <h1 className={styles.title}>
-        <span>LUV NFT</span>{" "}
+        <span>LUV</span> <span>NFT</span>{" "}
         <a
         href="https://luvnft.com"
         target="_blank"
@@ -102,7 +102,7 @@ const Home: NextPage = () => {
               <p>
                 A LNE (LUV NFT ESTATE) is a WEB5 address that you own as a digital asset within your crypto wallet.
                 Each LNE is tethered to a physical location using a What3words address (e.g., ///lobster.beats.suckle).
-                Through our Tokenopoly game, we're educating LNE Biz, Brokers and Investors about virtual real estate 
+                Through our Tokenopoly game, we educate Biz, Brokers and Investors about virtual real estate in a fun way. 
               </p>
             </a>
           </Link>
