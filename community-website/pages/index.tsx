@@ -145,8 +145,7 @@ const Home: NextPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Made with ❤️ by The Wizard Hahz &amp; Dr.Candy <br></br>
-          &quot;IN LUV WE TRUST&quot;
+          Made with ❤️ by The Wizard Hahz &amp; Dr.Candy IN LUV WE TRUST <br></br>
         </a>
       </footer>
     </div>
