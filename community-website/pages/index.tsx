@@ -80,7 +80,7 @@ const Home: NextPage = () => {
                 <p>
                 Elevate to Web5 to learn how to barter $LUV and discover our solutions for the housing crisis, VC funding challenges,
                 bridging the tech gap for unfunded businesses, fostering unity through $LUV, distinguishing a landlord from a LNElord,
-                and accessing trusted online services. Stay updated on the for purpose economy.
+                and accessing trusted online services. Do what you $LUV.
                 </p>
             </a>
           </Link>
@@ -102,7 +102,7 @@ const Home: NextPage = () => {
               <p>
               A LNE (LUV NFT ESTATE) is a WEB5 address that you own as a digital asset within your crypto wallet.
               Each LNE is tethered to a physical location using a What3words address (e.g., ///lobster.beats.suckle).
-              Through our Tokenopoly game, we educate LNE Biz, Brokers and Investors about how a LNE works for them.
+              Through our Tokenopoly game, we educate LNE Biz, Brokers & Investors about LNE.
               </p>
             </a>
           </Link>
