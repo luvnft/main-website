@@ -90,8 +90,8 @@ const Home: NextPage = () => {
               <h2>RNT. &rarr;</h2>
               <p>
               We solved the affordable housing crisis with a BRC-20 token called $RNT that allows hosts to set affordable rental prices and 
-              landlords to accept Bitcoin for their rental properties. Promote RNTals for free <a href="https://t.me/rntsat">Telegram</a>.
-              Subscribe to promote your RNTals in our <a href="https://luvgames.luvnft.com">Discord</a>.
+              landlords to accept Bitcoin for their rental properties. Promote a RNTal for free <a href="https://t.me/rntsat">Telegram</a>.
+              Subscribe to <a href="https://luvgames.luvnft.com">Discord</a> as a LNElord to learn how to accept $RNT.
               </p>
             </a>
           </Link>
@@ -102,7 +102,7 @@ const Home: NextPage = () => {
               <p>
               A LNE (LUV NFT ESTATE) is a WEB5 address that you own as a digital asset within your crypto wallet.
               Each LNE is tethered to a physical location using a What3words address (e.g., ///lobster.beats.suckle).
-              Through our Tokenopoly game, we're educating LNE Biz, Brokers and Investors about virtual real estate 
+              Through our Tokenopoly game, we educate LNE Biz, Brokers and Investors about virtual real estate 
               </p>
             </a>
           </Link>
@@ -111,9 +111,9 @@ const Home: NextPage = () => {
             <a className={styles.card}>
               <h2>METAVEGAS. &rarr;</h2>
               <p>
-              A fair, simple and decentralized social charity casino on Solana. Join other players in the LUV NFT
+              A fair, simple and decentralized social charity casino on Solana blockchain. Join other players in the LUV NFT
               free Discord <a href="https://discord.com/channels/910051231437819914/914993936957861978">Game Room</a> channel.
-              Follow us on Twitter <a href="https://twitter.com/metavegas888">metavegas888</a> for exclusive metaverse club events.
+              Follow us on Twitter <a href="https://twitter.com/metavegas888">@metavegas888</a> for exclusive metaverse club events.
               </p>
             </a>
           </Link>
@@ -131,8 +131,8 @@ const Home: NextPage = () => {
               <p>
               We're teaching the world how to learn to invest in commercial real estate with our free game. The game
               funds a player account with $440,000 in play money, allowing users to explore investment properties at
-              their own pace, starting in Atlanta (Dr. Martin Luther King home). Follow @LUVNFT on social media to
-              join our live LNELORD sport events.
+              their own pace, starting in Atlanta (Dr. Martin Luther King home). Join our Discord as a LNElord and 
+              join the LNElord channel to learn how to level up. Use our LNElord AR Filter on TikTok.
               </p>
             </a>
           </Link>
