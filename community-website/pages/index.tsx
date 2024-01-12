@@ -10,25 +10,16 @@ import Link from "next/link";
 const Home: NextPage = () => {
   const typed = useRef<null | Typed>(null);
 
-  useEffect(() => {
-    const options = {
-      strings: [
-        "⚡ We're investing 1 trillion One $LUV into Web5! ",
-        "💖 $LUV is a UBI equivalent to one hour of time in your state!",
-        "⚡ Accept our Bitcoin $RNT for real estate, products and services.",
-      ],
-      typeSpeed: 75,
-      backSpeed: 75,
-    };
-
-    // #typing-element refers to the <code> rendered below
-    typed.current = new Typed("#typing-element", options);
-
-    return () => {
-      // Destroy Typed instance during cleanup to prevent memory leaks
-      typed.current?.destroy();
-    };
-  }, []);
+  // Escape single quotes in the options object
+  const options = {
+    strings: [
+      "⚡ We're investing 1 trillion One $LUV into Web5! ",
+      "💖 $LUV is a UBI equivalent to one hour of time in your state!",
+      "⚡ Accept our Bitcoin $RNT for real estate, products and services.",
+    ],
+    typeSpeed: 75,
+    backSpeed: 75,
+  };
 
   useEffect(() => {
     const confettiSettings = { target: "confetti-canvas" };
@@ -38,11 +29,23 @@ const Home: NextPage = () => {
     return () => confetti.clear();
   }, []);
 
+  useEffect(() => {
+    typed.current = new Typed("#typing-element", options);
+
+    return () => {
+      // Destroy Typed instance during cleanup to prevent memory leaks
+      typed.current?.destroy();
+    };
+  }, []);
+
   return (
     <div className={styles.container}>
       <Head>
         <title>LUV NFT IS WEB5</title>
-        <meta name="description" content="Learn how to own virtual real estate in the for purpose economy." />
+        <meta
+          name="description"
+          content="Learn how to own virtual real estate in the for purpose economy."
+        />
         <link rel="icon" href="/earth-asia-solid.svg" />
       </Head>
 
@@ -56,14 +59,14 @@ const Home: NextPage = () => {
         <NavBar></NavBar>
 
         <h1 className={styles.title}>
-        <span>LUV</span> <span>NFT</span>{" "}
-        <a
-        href="https://luvnft.com"
-        target="_blank"
-        rel="noopener noreferrer"
-        >
-        IN LUV WE TRUST
-        </a>
+          <span>LUV</span> <span>NFT</span>{" "}
+          <a
+            href="https://luvnft.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            IN LUV WE TRUST
+          </a>
         </h1>
 
         <p className={styles.description}>
@@ -78,9 +81,12 @@ const Home: NextPage = () => {
             <a className={styles.card}>
               <h2>Y. &rarr;</h2>
               <p>
-                Elevate to Web5 to learn how to barter $LUV and discover our solutions for the housing crisis, VC funding challenges,
-                bridging the tech gap for unfunded businesses, fostering unity through $LUV, distinguishing a landlord from a LNElord,
-                and accessing trusted online services. Stay updated on new businesses joining Web5 and news on technology and spirituality.
+                Elevate to Web5 to learn how to barter $LUV and discover our
+                solutions for the housing crisis, VC funding challenges, bridging
+                the tech gap for unfunded businesses, fostering unity through
+                $LUV, distinguishing a landlord from a LNElord, and accessing
+                trusted online services. Stay updated on new businesses joining
+                Web5 and news on technology and spirituality.
               </p>
             </a>
           </Link>
@@ -89,9 +95,12 @@ const Home: NextPage = () => {
             <a className={styles.card}>
               <h2>$RNT &rarr;</h2>
               <p>
-                We solved the affordable housing crisis with a BRC-20 token called $RNT that allows hosts to set affordable rental prices and 
-                landlords to accept Bitcoin for their rental properties. Promote RNTals for free <a href="https://t.me/rntsat">Telegram</a>.
-                Subscribe to promote your RNTals in our <a href="https://luvgames.luvnft.com">Discord</a>.
+                We solved the affordable housing crisis with a BRC-20 token
+                called $RNT that allows hosts to set affordable rental prices and
+                landlords to accept Bitcoin for their rental properties. Promote
+                RNTals for free <a href="https://t.me/rntsat">Telegram</a>.
+                Subscribe to promote your RNTals in our{" "}
+                <a href="https://luvgames.luvnft.com">Discord</a>.
               </p>
             </a>
           </Link>
@@ -100,9 +109,12 @@ const Home: NextPage = () => {
             <a className={styles.card}>
               <h2>LNE. &rarr;</h2>
               <p>
-                A LNE (LUV NFT ESTATE) is a WEB5 address that you own as a digital asset within your crypto wallet.
-                Each LNE is tethered to a physical location using a What3words address (e.g., ///lobster.beats.suckle).
-                Through our Tokenopoly game, we educate Biz, Brokers and Investors about virtual real estate in a fun way. 
+                A LNE (LUV NFT ESTATE) is a WEB5 address that you own as a
+                digital asset within your crypto wallet. Each LNE is tethered to
+                a physical location using a What3words address (e.g.,
+                ///lobster.beats.suckle). Through our Tokenopoly game, we educate
+                Biz, Brokers and Investors about virtual real estate in a fun
+                way.
               </p>
             </a>
           </Link>
@@ -111,17 +123,19 @@ const Home: NextPage = () => {
             <a className={styles.card}>
               <h2>METAVEGAS. &rarr;</h2>
               <p>
-                A fair, simple and decentralized social charity casino on Solana. Join other players in the LUV NFT
-                free Discord <a href="https://discord.com/channels/910051231437819914/914993936957861978">Game Room</a> channel.
-                Follow us on Twitter <a href="https://twitter.com/metavegas888">metavegas888</a> for exclusive metaverse club events.
+                A fair, simple and decentralized social charity casino on
+                Solana. Join other players in the LUV NFT free Discord{" "}
+                <a href="https://discord.com/channels/910051231437819914/914993936957861978">
+                  Game Room
+                </a>{" "}
+                channel. Follow us on Twitter{" "}
+                <a href="https://twitter.com/metavegas888">metavegas888</a>{" "}
+                for exclusive metaverse club events.
               </p>
             </a>
           </Link>
 
-          <Link
-            href="https://lnelord.luvnft.com"
-            passHref
-          >
+          <Link href="https://lnelord.luvnft.com" passHref>
             <a
               className={styles.card}
               target="_blank"
@@ -129,10 +143,12 @@ const Home: NextPage = () => {
             >
               <h2>LNELORD. &rarr;</h2>
               <p>
-                We're teaching the world how to learn to invest in commercial real estate with our free game. The game
-                funds a player account with $440,000 in play money, allowing users to explore investment properties at
-                their own pace, starting in Atlanta (Dr. Martin Luther King home). Follow @LUVNFT on social media to
-                join our live LNELORD sport events.
+                We're teaching the world how to learn to invest in commercial
+                real estate with our free game. The game funds a player account
+                with $440,000 in play money, allowing users to explore investment
+                properties at their own pace, starting in Atlanta (Dr. Martin
+                Luther King home). Follow @LUVNFT on social media to join our
+                live LNELORD sport events.
               </p>
             </a>
           </Link>
@@ -145,7 +161,7 @@ const Home: NextPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Made with ❤️ by The Wizard Hahz &amp; Dr.Candy <br></br>
+          Made with ❤️ by The Wizard Hahz &amp; Dr.Candy &lt;br&gt;&lt;br&gt;
           IN LUV WE TRUST
         </a>
       </footer>
