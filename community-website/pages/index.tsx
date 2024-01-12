@@ -13,9 +13,9 @@ const Home: NextPage = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "⚡ We're investing 1 trillion One $LUV into Web5! ",
-        "💖 $LUV is a UBI equivalent to one hour of time in your state!",
-        "⚡ Accept our Bitcoin $RNT for real estate, products and services.",
+        &quot;⚡ We&#39;re investing 1 trillion One $LUV into Web5! &quot;,
+        &quot;💖 $LUV is a UBI equivalent to one hour of time in your state!&quot;,
+        &quot;⚡ Accept our Bitcoin $RNT for real estate, products and services.&quot;,
       ],
       typeSpeed: 75,
       backSpeed: 75,
