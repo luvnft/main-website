@@ -92,7 +92,7 @@ const Home: NextPage = () => {
               <p>
                 A Monopoly like game for adults played on TikTok and IRL [IN REAL
                 LIFE]. Follow{" "}
-                <a href="https://www.tiktok.com/@w3bars" target="_blank">
+                <a href="https://www.tiktok.com/@w3bars">
                   @W3BARS
                 </a>{" "}
                 on TikTok for free ONE $LUV to play with. Spin our TikTok Effect
