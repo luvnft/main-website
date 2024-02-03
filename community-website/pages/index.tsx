@@ -74,46 +74,47 @@ const Home: NextPage = () => {
         </p>
 
         <div className={styles.grid}>
-          <Link href="https://y.luvnft.com">
+          <Link href="https://metavegas.luvnft.com">
             <a className={styles.card}>
-              <h2>Y &rarr;</h2>
-              <p>Why choose LUV NFT? Explore Web5 technology and spirituality news. Discover 
-                how the purpose economy can benefit you and your business.</p>
+              <h2>METAVEGAS &rarr;</h2>
+              <p>A fair, simple, and decentralized social casino on the Solana blockchain. Purchase 
+                Solana crypto $SOL or $USD via Stripe using a debit card to get started. Players receive 
+                instant winnings in their Solana wallet. Join our 888 Metaverse. </p>
             </a>
           </Link>
 
-          <Link href="https://rnt.luvnft.com">
+          <Link href="https://tokenopoly.luvnft.com">
             <a className={styles.card}>
-              <h2>$RNT &rarr;</h2>
-              <p>
-              Create affordable housing by accepting Bitcoin $RNT for rentals. Promote 
-              RNTals on <a href="https://t.me/rntsat">Telegram</a> for free, without any middleman fees.
+              <h2>TOKENOPOLY &rarr;</h2>
+              <p>A Monopoly like game for adults played on TikTok and IRL [IN REAL LIFE]. Follow 
+              <a href="https://www.tiktok.com/@w3bars" target="_blank">@W3BARS</a> on TikTok for free ONE $LUV to play with. Spin our TikTok Effect LRG 
+                [LNE ROULETTE GAME] wheel to play TOKENOPOLY. Buy 📉 and sell 📈
               </p>
             </a>
           </Link>
 
-          <Link href="https://nftv.luvnft.com">
+          <Link href="https://luvgames.luvnft.com">
             <a className={styles.card}>
-              <h2>NFTV &rarr;</h2>
-              <p>
-              Subscribe to a PPV (Pay per View) network to learn about Web5 or to own and promote 
-              your biz without algorithms or middlemen fees.
+              <h2>PPV DISCORD &rarr;</h2>
+              <p>Join the LUV NFT Discord to discover how to onboard to Web5 as a business to tokenize 
+                your offerings, as a broker to sell blockchain real estate earning 10% comm, or as a 
+                landlord to tokenize your portfolio and accept Bitcoin $RNT.
               </p>
             </a>
           </Link>
 
-          <Link href="https://healxyz.com">
+          <Link href="https://arvrtise.com">
             <a className={styles.card}>
-              <h2>HEALXYZ &rarr;</h2>
-              <p>
-              Subscribe to the first spiritual metaverse for healing, memes, higher learning, and
-              finding your soulmate. Follow @HealXYZ ✨😂
+              <h2>ARVRTISE &rarr;</h2>
+              <p>The Web5 marketing that unites Pros, Brands, and Masterminds on a single PPV Discord 
+                platform as the A-Team. Tokenize ad content. Use AI for resume scanning. Hire blockchain 
+                masterminds for candidate interviews.
               </p>
             </a>
           </Link>
 
           <Link
-            href="https://arvrtise.com"
+            href="https://healxyz.com"
             passHref
           >
             <a
@@ -121,9 +122,10 @@ const Home: NextPage = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h2>ARVRTISE &rarr;</h2>
-              <p>Advertise your biz using advanced tech for an affordable monthly subscription cost. 
-                Transform your followers or customers into your A-Team.</p>
+              <h2>HEALXYZ &rarr;</h2>
+              <p>Access free spiritual healing on our @HEALXYZ TikTok, or join our HealXYZ PPV Discord for 
+                selling spiritual services, dating and discussions. We also offer affordable HealXYZ plans 
+                for corporate employees.</p>
             </a>
           </Link>
         </div>
