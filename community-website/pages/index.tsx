@@ -13,9 +13,9 @@ const Home: NextPage = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "⚡ We minted 1 trillion ONE $LUV tokens to unite humanity with a UBI! ",
-        "💖 The value of $LUV is equivalent to one hour of time in your state!",
-        "⚡ Accept Bitcoin $RNT for affordable real estate, products and services.",
+        "⚡ Learn how to remove the middleman from your business to earn more. ",
+        "💖 Receive a monthly ONE $LUV UBI income airdropped to your account.",
+        "⚡ We minted 1 trillion ONE $LUV tokens to unite humanity with a UBI!",
       ],
       typeSpeed: 75,
       backSpeed: 75,
@@ -77,18 +77,27 @@ const Home: NextPage = () => {
           <Link href="https://metavegas.luvnft.com">
             <a className={styles.card}>
               <h2>METAVEGAS &rarr;</h2>
-              <p>A fair, simple, and decentralized social casino on the Solana blockchain. Purchase 
-                Solana crypto $SOL or $USD via Stripe using a debit card to get started. Players receive 
-                instant winnings in their Solana wallet. Join our 888 Metaverse. </p>
+              <p>
+                A fair, simple, and decentralized social casino on the Solana
+                blockchain. Purchase Solana crypto $SOL or $USD via Stripe using a
+                debit card to get started. Players receive instant winnings in
+                their Solana wallet. Join our 888 Metaverse.
+              </p>
             </a>
           </Link>
 
           <Link href="https://tokenopoly.luvnft.com">
             <a className={styles.card}>
               <h2>TOKENOPOLY &rarr;</h2>
-              <p>A Monopoly like game for adults played on TikTok and IRL [IN REAL LIFE]. Follow 
-              <a href="https://www.tiktok.com/@w3bars" target="_blank">@W3BARS</a> on TikTok for free ONE $LUV to play with. Spin our TikTok Effect LRG 
-                [LNE ROULETTE GAME] wheel to play TOKENOPOLY. Buy 📉 and sell 📈
+              <p>
+                A Monopoly like game for adults played on TikTok and IRL [IN REAL
+                LIFE]. Follow{" "}
+                <a href="https://www.tiktok.com/@w3bars" target="_blank">
+                  @W3BARS
+                </a>{" "}
+                on TikTok for free ONE $LUV to play with. Spin our TikTok Effect
+                LRG [LNE ROULETTE GAME] wheel to play TOKENOPOLY. Buy 📉 and sell
+                📈
               </p>
             </a>
           </Link>
@@ -96,9 +105,11 @@ const Home: NextPage = () => {
           <Link href="https://luvgames.luvnft.com">
             <a className={styles.card}>
               <h2>PPV DISCORD &rarr;</h2>
-              <p>Join the LUV NFT Discord to discover how to onboard to Web5 as a business to tokenize 
-                your offerings, as a broker to sell blockchain real estate earning 10% comm, or as a 
-                landlord to tokenize your portfolio and accept Bitcoin $RNT.
+              <p>
+                Join the LUV NFT Discord to discover how to onboard to Web5 as a
+                business to tokenize your offerings, as a broker to sell
+                blockchain real estate earning 10% comm, or as a landlord to
+                tokenize your portfolio and accept Bitcoin $RNT.
               </p>
             </a>
           </Link>
@@ -106,26 +117,28 @@ const Home: NextPage = () => {
           <Link href="https://arvrtise.com">
             <a className={styles.card}>
               <h2>ARVRTISE &rarr;</h2>
-              <p>The Web5 marketing that unites Pros, Brands, and Masterminds on a single PPV Discord 
-                platform as the A-Team. Tokenize ad content. Use AI for resume scanning. Hire blockchain 
-                masterminds for candidate interviews.
+              <p>
+                The Web5 marketing that unites Pros, Brands, and Masterminds on a
+                single PPV Discord platform as the A-Team. Tokenize ad content.
+                Use AI for resume scanning. Hire blockchain masterminds for
+                candidate interviews.
               </p>
             </a>
           </Link>
 
-          <Link
-            href="https://healxyz.com"
-            passHref
-          >
+          <Link href="https://healxyz.com" passHref>
             <a
               className={styles.card}
               target="_blank"
               rel="noopener noreferrer"
             >
               <h2>HEALXYZ &rarr;</h2>
-              <p>Access free spiritual healing on our @HEALXYZ TikTok, or join our HealXYZ PPV Discord for 
-                selling spiritual services, dating and discussions. We also offer affordable HealXYZ plans 
-                for corporate employees.</p>
+              <p>
+                Access free spiritual healing on our @HEALXYZ TikTok, or join our
+                HealXYZ PPV Discord for selling spiritual services, dating and
+                discussions. We also offer affordable HealXYZ plans for corporate
+                employees.
+              </p>
             </a>
           </Link>
         </div>
@@ -137,7 +150,8 @@ const Home: NextPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Made with ❤️ by The Wizard Hahz &amp; Dr.Candy IN LUV WE TRUST <br></br>
+          Made with ❤️ by The Wizard Hahz &amp;amp; Dr.Candy IN LUV WE TRUST
+          &lt;br&gt;&lt;br&gt;
         </a>
       </footer>
     </div>
