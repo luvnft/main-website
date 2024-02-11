@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       strings: [
         "⚡ Learn how to tokenize your biz or your physical real estate portfolio. ",
         "🏢 Learn how to sell blockchain real estate to earn 10% commission.",
-        "⚡ Play a game in MetaVegas and win instant payout directly in your crypto wallet.",
+        "⚡ Play a game in MetaVegas and win instant payouts directly in your crypto wallet.",
       ],
       typeSpeed: 75,
       backSpeed: 75,
@@ -106,8 +106,8 @@ const Home: NextPage = () => {
               <h2>⬛ SOLANA &rarr;</h2>
               <p>
                 MetaVegas is a decentralized online social casino for the good of rewarding affiliates. 
-                Buy a BLK 5DSTORY MONTH or a Philly 5D LUVR Barber Jawn. Use our SOLEYE explorer to 
-                research any Solana token.
+                Buy a BLK 5DSTORY MONTH or a Philly 5D LUVR Barber Jawn. Use SOLEYE explorer to research 
+                any Solana token.
               </p>
             </a>
           </Link>
