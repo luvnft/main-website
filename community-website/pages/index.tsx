@@ -80,10 +80,9 @@ const Home: NextPage = () => {
             <a className={styles.card}>
               <h2>🟪 POLYGON &rarr;</h2>
               <p>
-                If you want to learn the TOKENOPOLY blockchain game that
-                you own subscribe to our PPV Discord. Learn how to create 
-                a free [YOUR NAME].LUV Web5 domain $LUV bank trust account 
-                and claim your first free LNE [LUV NFT ESTATE]. 
+                We made learning blockchain fun with a game called TOKENOPOLY 
+                that you own, subscribe to our PPV Discord. Buy and sell a 🟪 LNE.
+                Search a companies [NAME].LUV trust account to see if they have a heart.
               </p>
             </a>
           </Link>
@@ -92,11 +91,9 @@ const Home: NextPage = () => {
             <a className={styles.card}>
               <h2>🟧 BITCOIN &rarr;</h2>
               <p>
-                Subscribe to our LUV NFT Discord as a Broker to learn how to 
-                learn how to sell TOKENOPOLY digital real estate to earn Bitcoin.
-                Subscribe as a LNELORD to learn how to tokenize your physical real
-                estate and accept Bitcoin $RNT. Explore Pix the Web5 Bitcoin IG.
-
+                Learn how to sell TOKENOPOLY digital real estate and earn Bitcoin.
+                Learn how to tokenize your physical real estate and accept Bitcoin ($RNT).
+                Try our Bitcoin social media, games and tools.
               </p>
             </a>
           </Link>
@@ -105,10 +102,9 @@ const Home: NextPage = () => {
             <a className={styles.card}>
               <h2>🟦 ETHEREUM &rarr;</h2>
               <p>
-                Buy or learn how to sell a Vegas casino LNE which is the hottest IRL 
-                [IN REAL LIFE] physical location in the world right now with everyone
-                talking about the Superbowl. Use the scribETH inscripton tool to create 
-                an NFT. 1 $ETH just crossed the $2500 mark in value.
+                Buy or learn how to sell a LNE Las Vegas casino, which is the hottest physical 
+                location in the world right now with everyone talking about the Super Bowl. 
+                Use the scribETH tool to create an NFT.
               </p>
             </a>
           </Link>
@@ -117,8 +113,7 @@ const Home: NextPage = () => {
             <a className={styles.card}>
               <h2>⬛ SOLANA &rarr;</h2>
               <p>
-                The hottest and most talked-about online casino gaming platform is MetaVegas.
-                Bet with $SOL or $USD, with all winnings going directly into your Phantom wallet.
+                MetaVegas is a decentralized online social casino for the good of rewarding affiliates. 
                 Buy a BLK 5DSTORY MONTH or a Philly 5D LUVR Barber Jawn on the Solana blockchain.
                 Use our SOLEYE explorer to research any Solana token or NFT portfolio.
               </p>
@@ -135,10 +130,8 @@ const Home: NextPage = () => {
               <p>
                 LUV NFT, powered by BLK LUV [ORG], solved some of the most challenging issues in humanity. 
                 One of these is the ability to identify individuals who are committed to ending systemic 
-                racism. We solved the issue of Diversity, Equity, and Inclusion (DEI) by enabling companies 
-                to tokenize their staff. We also addressed the problem of missing Racial Equality & Justice 
-                pledges by tokenizing Proof of Pledges. By tokenizing our commitments, we can build trust 
-                and accountability.
+                racism. We solved the issue of Diversity, Equity, and Inclusion (DEI) and Racial Equality 
+                & Justice missing pledges and more.
               </p>
             </a>
           </Link>
