@@ -13,9 +13,9 @@ const Home: NextPage = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "⚡ Learn how to remove the middleman from your business to earn more. ",
-        "💖 Receive a monthly ONE $LUV UBI income airdropped to your account.",
-        "⚡ We minted 1 trillion ONE $LUV tokens to unite humanity with a UBI!",
+        "⚡ Learn how to tokenize your biz or your physical real estate portfolio. ",
+        "🏢 Learn how to sell blockchain real estate to earn 10% commission.",
+        "⚡ Play a game in MetaVegas and win instant payout directly in your crypto wallet.",
       ],
       typeSpeed: 75,
       backSpeed: 75,
@@ -55,16 +55,17 @@ const Home: NextPage = () => {
       <main className={`${styles.main} text-black dark:text-white`}>
         <NavBar></NavBar>
 
-        <h1 className={styles.title}>
-          LUV NFT{" "}
-          <a
-            href="https://luvnft.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            IN LUV WE TRUST
-          </a>
-        </h1>
+      <h1 className={styles.title}>
+        <span className={styles.luv}>LUV</span>
+        <span className={styles.nft}>NFT</span>
+        <a
+          href="https://luvnft.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          IN LUV WE TRUST
+        </a>
+      </h1>
 
         <p className={styles.description}>
           <code
@@ -74,70 +75,69 @@ const Home: NextPage = () => {
         </p>
 
         <div className={styles.grid}>
-          <Link href="https://metavegas.luvnft.com">
+          <Link href="https://linktr.ee/maticluv">
             <a className={styles.card}>
-              <h2>METAVEGAS &rarr;</h2>
+              <h2>🟪 POLYGON &rarr;</h2>
               <p>
-                A fair, simple, and decentralized social casino on the Solana
-                blockchain. Purchase Solana crypto $SOL or $USD via Stripe using a
-                debit card to get started. Players receive instant winnings in
-                their Solana wallet. Join our 888 Metaverse.
+                If you want to learn the TOKENOPOLY blockchain game that
+                you own subscribe to our PPV Discord. Learn how to create 
+                a free [YOUR NAME].LUV Web5 domain $LUV bank trust account 
+                and claim your first free LNE [LUV NFT ESTATE]. 
               </p>
             </a>
           </Link>
 
-          <Link href="https://tokenopoly.luvnft.com">
+          <Link href="https://linktr.ee/satsluv">
             <a className={styles.card}>
-              <h2>TOKENOPOLY &rarr;</h2>
+              <h2>🟧 BITCOIN &rarr;</h2>
               <p>
-                A Monopoly like game for adults played on TikTok and IRL [IN REAL
-                LIFE]. Follow{" "}
-                <a href="https://www.tiktok.com/@w3bars">
-                  @W3BARS
-                </a>{" "}
-                on TikTok for free ONE $LUV to play with. Spin our TikTok Effect
-                LRG [LNE ROULETTE GAME] wheel to play TOKENOPOLY. Buy 📉 and sell
-                📈
+                Subscribe to our LUV NFT Discord as a Broker to learn how to 
+                learn how to sell TOKENOPOLY digital real estate to earn Bitcoin.
+                Subscribe as a LNELORD to learn how to tokenize your physical real
+                estate and accept Bitcoin $RNT. Explore Pix the Web5 Bitcoin IG.
+
               </p>
             </a>
           </Link>
 
-          <Link href="https://luvgames.luvnft.com">
+          <Link href="https://linktr.ee/ethluv">
             <a className={styles.card}>
-              <h2>PPV DISCORD &rarr;</h2>
+              <h2>🟦 ETHEREUM &rarr;</h2>
               <p>
-                Join the LUV NFT Discord to discover how to onboard to Web5 as a
-                business to tokenize your offerings, as a broker to sell
-                blockchain real estate earning 10% comm, or as a landlord to
-                tokenize your portfolio and accept Bitcoin $RNT.
+                Buy or learn how to sell a Vegas casino LNE which is the hottest IRL 
+                [IN REAL LIFE] physical location in the world right now with everyone
+                talking about the Superbowl. Use the scribETH inscripton tool to create 
+                an NFT. 1 $ETH just crossed the $2500 mark in value.
               </p>
             </a>
           </Link>
 
-          <Link href="https://arvrtise.com">
+          <Link href="https://linktr.ee/solluv">
             <a className={styles.card}>
-              <h2>ARVRTISE &rarr;</h2>
+              <h2>⬛ SOLANA &rarr;</h2>
               <p>
-                The Web5 marketing that unites Pros, Brands, and Masterminds on a
-                single PPV Discord platform as the A-Team. Tokenize ad content.
-                Use AI for resume scanning. Hire blockchain masterminds for
-                candidate interviews.
+                The hottest and most talked-about online casino gaming platform is MetaVegas.
+                Bet with $SOL or $USD, with all winnings going directly into your Phantom wallet.
+                Buy a BLK 5DSTORY MONTH or a Philly 5D LUVR Barber Jawn on the Solana blockchain.
+                Use our SOLEYE explorer to research any Solana token or NFT portfolio.
               </p>
             </a>
           </Link>
 
-          <Link href="https://healxyz.com" passHref>
+          <Link href="https://linktr.ee/luvnft" passHref>
             <a
               className={styles.card}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h2>HEALXYZ &rarr;</h2>
+              <h2>🚀 LUV NFT &rarr;</h2>
               <p>
-                Access free spiritual healing on our @HEALXYZ TikTok, or join our
-                HealXYZ PPV Discord for selling spiritual services, dating and
-                discussions. We also offer affordable HealXYZ plans for corporate
-                employees.
+                LUV NFT, powered by BLK LUV [ORG], solved some of humanity's most challenging issues. 
+                One of these is the ability to identify individuals who are committed to ending systemic 
+                racism. We solved the issue of Diversity, Equity, and Inclusion (DEI) by enabling companies 
+                to tokenize their staff. We also addressed the problem of missing Racial Equality & Justice 
+                pledges by tokenizing Proof of Pledges. By tokenizing our commitments, we can build trust 
+                and accountability.
               </p>
             </a>
           </Link>
