@@ -63,7 +63,8 @@ const Home: NextPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          IN LUV WE TRUST
+        <span className={styles.luv}>IN LUV</span>
+        <span className={styles.nft}>WE TRUST</span>
         </a>
       </h1>
 
@@ -132,7 +133,7 @@ const Home: NextPage = () => {
             >
               <h2>🚀 LUV NFT &rarr;</h2>
               <p>
-                LUV NFT, powered by BLK LUV [ORG], solved some of humanity's most challenging issues. 
+                LUV NFT, powered by BLK LUV [ORG], solved some of the most challenging issues in humanity. 
                 One of these is the ability to identify individuals who are committed to ending systemic 
                 racism. We solved the issue of Diversity, Equity, and Inclusion (DEI) by enabling companies 
                 to tokenize their staff. We also addressed the problem of missing Racial Equality & Justice 
