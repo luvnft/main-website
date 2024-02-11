@@ -58,14 +58,6 @@ const Home: NextPage = () => {
       <h1 className={styles.title}>
         <span className={styles.luv}>LUV</span>
         <span className={styles.nft}>NFT</span>
-        <a
-          href="https://luvnft.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        <span className={styles.luv}>IN LUV</span>
-        <span className={styles.nft}>WE TRUST</span>
-        </a>
       </h1>
 
         <p className={styles.description}>
@@ -114,8 +106,8 @@ const Home: NextPage = () => {
               <h2>⬛ SOLANA &rarr;</h2>
               <p>
                 MetaVegas is a decentralized online social casino for the good of rewarding affiliates. 
-                Buy a BLK 5DSTORY MONTH or a Philly 5D LUVR Barber Jawn on the Solana blockchain.
-                Use our SOLEYE explorer to research any Solana token or NFT portfolio.
+                Buy a BLK 5DSTORY MONTH or a Philly 5D LUVR Barber Jawn. Use our SOLEYE explorer to 
+                research any Solana token or NFT portfolio.
               </p>
             </a>
           </Link>
@@ -144,7 +136,7 @@ const Home: NextPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Made with ❤️ by The Wizard Hahz x Dr.Candy IN LUV WE TRUST
+          Made with ❤️ NFT
         </a>
       </footer>
     </div>
