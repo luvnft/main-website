@@ -106,7 +106,7 @@ const Home: NextPage = () => {
               <h2>⬛ SOLANA &rarr;</h2>
               <p>
                 MetaVegas is a decentralized online social casino for the good of rewarding affiliates. 
-                Buy a BLK 5DSTORY MONTH or a Philly 5D LUVR Barber Jawn. Use SOLEYE explorer to research 
+                Buy a BLK 5DSTORY MONTH or a Philly 5D LUVR Barber. Use SOLEYE explorer to research 
                 any Solana token.
               </p>
             </a>
