@@ -55,10 +55,10 @@ const Home: NextPage = () => {
       <main className={`${styles.main} text-black dark:text-white`}>
         <NavBar></NavBar>
 
-      <h1 className={styles.title}>
+        <h1 className={styles.title}>
         <span className={styles.luv}>LUV</span>
         <span className={styles.nft}>NFT</span>
-      </h1>
+        </h1>
 
         <p className={styles.description}>
           <code
@@ -107,7 +107,7 @@ const Home: NextPage = () => {
               <p>
                 MetaVegas is a decentralized online social casino for the good of rewarding affiliates. 
                 Buy a BLK 5DSTORY MONTH or a Philly 5D LUVR Barber Jawn. Use our SOLEYE explorer to 
-                research any Solana token or NFT portfolio.
+                research any Solana token.
               </p>
             </a>
           </Link>
